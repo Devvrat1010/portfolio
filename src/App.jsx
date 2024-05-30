@@ -1,26 +1,20 @@
 import './index.css'
 import downloadButton from './assets/downloadIcon.avif'
-// import downloadButton from './assets/downloadIcon.png'
 function App() {
     return (
         <main className='text-gray-900'>
-            <header className="">
+            <header>
                 <div className="container mx-auto px-4 py-6">
                     <div className="">
                         <h1 className="text-3xl font-bold">Devvrat Singh Rathod</h1>
 
                         <a href="./assets/Devvrat_Singh_Rathod_Resume.pdf" download="Devvrat_Singh_Rathod_Resume.pdf" className='text-xl font-semibold flex gap-2'>
-                                <img src={downloadButton} alt="downloadIcon" className='h-8' />
-                                <p>
-                                    Resume
-                                </p>
-                                {/* </span> */}
-                            {/* </span> */}
+                            <img src={downloadButton} alt="downloadIcon" className='h-8' />
+                            <p> Resume </p>
                         </a>
                         <div>
                             <a href="tel:+919429912639" target='_blank' className="text-blue-700 hover:underline">+91 9429912639</a> | {' '}
                             <a href="mailto:devvatsingh.cse21@aii.ac.in" target='_blank' className="text-blue-700 hover:underline">Email</a> | {' '}
-                            {/* <a href="mailto:devvatsingh.cse21@aii.ac.in" target='_blank' className="text-blue-700 hover:underline">+91 9429912639</a> | {' '} */}
                             <a href="https://linkedin.com/in/devvrat-singh-rathod" target='_blank' className="text-blue-700 hover:underline">LinkedIn</a> | {' '}
                             <a href="https://www.leetcode.com/u/Devvrat1010/" target='_blank' className="text-blue-700 hover:underline">LeetCode</a> | {' '}
                             <a href="https://www.github.com/Devvrat1010/" target='_blank' className="text-blue-700 hover:underline">Github</a> | {' '}
@@ -59,6 +53,7 @@ function App() {
                     </div>
                 </section>
                 <hr />
+
                 {/* <!-- Projects Section --> */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold">Projects</h2>
@@ -97,7 +92,7 @@ function App() {
                                 <p className='ml-6'> Nirma University | 19 April 2024 </p>
                             </li>
                             <li>
-                                HackThisFall 3.0 | Winner of Postman Track 
+                                HackThisFall 3.0 | Winner of Postman Track
                                 <p className='ml-6'> Karnavati University | 6 February 2024 </p>
                             </li>
                             <li>
@@ -152,7 +147,6 @@ function App() {
             {/* <!-- Footer --> */}
             <footer className="mt-8">
                 <hr />
-
                 <div className="container mx-auto px-4 py-4 text-center">
                     <p>&copy; 2024 Devvrat Singh Rathod. All rights reserved.</p>
                 </div>
