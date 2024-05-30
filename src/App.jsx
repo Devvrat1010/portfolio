@@ -1,5 +1,6 @@
 import './index.css'
-
+import downloadButton from './assets/downloadIcon.avif'
+// import downloadButton from './assets/downloadIcon.png'
 function App() {
     return (
         <main className='text-gray-900'>
@@ -7,8 +8,19 @@ function App() {
                 <div className="container mx-auto px-4 py-6">
                     <div className="">
                         <h1 className="text-3xl font-bold">Devvrat Singh Rathod</h1>
+
+                        <a href="./assets/Devvrat_Singh_Rathod_Resume.pdf" download="Devvrat_Singh_Rathod_Resume.pdf" className='text-xl font-semibold flex gap-2'>
+                                <img src={downloadButton} alt="downloadIcon" className='h-8' />
+                                <p>
+                                    Resume
+                                </p>
+                                {/* </span> */}
+                            {/* </span> */}
+                        </a>
                         <div>
+                            <a href="tel:+919429912639" target='_blank' className="text-blue-700 hover:underline">+91 9429912639</a> | {' '}
                             <a href="mailto:devvatsingh.cse21@aii.ac.in" target='_blank' className="text-blue-700 hover:underline">Email</a> | {' '}
+                            {/* <a href="mailto:devvatsingh.cse21@aii.ac.in" target='_blank' className="text-blue-700 hover:underline">+91 9429912639</a> | {' '} */}
                             <a href="https://linkedin.com/in/devvrat-singh-rathod" target='_blank' className="text-blue-700 hover:underline">LinkedIn</a> | {' '}
                             <a href="https://www.leetcode.com/u/Devvrat1010/" target='_blank' className="text-blue-700 hover:underline">LeetCode</a> | {' '}
                             <a href="https://www.github.com/Devvrat1010/" target='_blank' className="text-blue-700 hover:underline">Github</a> | {' '}
