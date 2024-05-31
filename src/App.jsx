@@ -1,17 +1,8 @@
 import './index.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import Portfolio from './portfolio'
-// import Google8021a8476876d021 from '../google8021a8476876d021'
+import downloadButton from './assets/downloadIcon.avif'
+
 function App() {
     return (
-        // < >
-        //     <Router>
-        //         <Routes>
-        //             <Route path="/" element={<Portfolio />} />
-        //             <Route path="/google8021a8476876d021.html" element={<Google8021a8476876d021 />} />
-        //         </Routes>
-        //     </Router>
-        // </>
         <main className='text-gray-900'>
             <header>
                 <div className="container mx-auto px-4 py-6">
