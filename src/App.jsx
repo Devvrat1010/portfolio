@@ -8,7 +8,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Portfolio />} />
-                    <Route path="/google8021a8476876d021" element={<Google8021a8476876d021 />} />
+                    <Route path="/google8021a8476876d021.html" element={<Google8021a8476876d021 />} />
                 </Routes>
             </Router>
         </>
